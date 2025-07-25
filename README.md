@@ -1,64 +1,50 @@
-📈 Customer Engagement Data Analysis Project
+📊 Marketing Analysis using Power BI,SQL, python\
 
-This Power BI project analyzes marketing performance and customer behavior for a fictional sports-related business. Using structured data on customers, 
-products, locations, and engagement metrics, the dashboard enables marketing and data teams to uncover actionable insights to optimize content strategies, product targeting, and campaign performance.
+🔍 Project Overview
 
-📊 Project Overview
+This project involves the development of a comprehensive Marketing Analysis Dashboard using Power BI. The goal was to help the business make data-driven marketing decisions by analyzing sales performance, customer behavior, and campaign effectiveness.
 
-This project includes four datasets:
+The data was retrieved from a structured SQL database, where necessary transformations and filtering were performed via SQL queries to ensure clean and analysis-ready data. In addition, sentiment analysis was conducted on customer reviews using Python's TextBlob to provide insights into customer satisfaction and perception.
 
-Customers: Demographic details linked to geographic locations.
+🧠 Key Features
 
-Products: Product catalog including category and price.
+Extracted and cleaned marketing data using SQL queries directly from a relational database.
 
-Geography: Location data for cities and countries.
+Built interactive and dynamic Power BI dashboards for sales, product performance, and marketing campaign analysis.
 
-Engagement: Interaction metrics (likes, views, clicks) tied to marketing campaigns and content types.
+Applied sentiment analysis on customer feedback using TextBlob in Python to understand public perception.
 
-The dashboard and analysis provide deep insights into customer segmentation, content effectiveness, and regional preferences using tools such as Power BI, Python, and SQL.
+Created key metrics and KPIs including revenue trends, top-selling products, regional performance, and campaign ROI.
 
-🧠 Key Insights
+Enabled data slicing and drill-through functionality for enhanced business decision-making.
 
-Top Engagement Channels: Social media and newsletters drive the highest views and clicks.
+🧰 Tools & Technologies
 
-Product Performance: High-value items like Yoga Mats and Golf Clubs often receive more engagement than lower-priced products.
+SQL – Data extraction and cleaning
 
-Customer Segments: Younger customers (ages 18–30) show more interaction with video content.
+Power BI – Data visualization and dashboard design
 
-Regional Trends: Cities like Berlin and London show significant differences in preferred content types.
+Python (TextBlob) – Sentiment analysis
 
-Campaign Analysis: Certain campaigns (e.g., CampaignID 3) consistently outperform others across all channels.
+DAX – Calculated columns, measures, and KPIs
 
-Product Performance: High-value items like Yoga Mats and Golf Clubs often receive more engagement than lower-priced products.
+Power Query (M language) – Data modeling and transformation
 
-Customer Segments: Younger customers (ages 18–30) show more interaction with video content.
+📈 Insights Gained
 
-| Folder/File                | Description                                                |
-| -------------------------- | ---------------------------------------------------------- |
-| `data/customers.csv`       | Customer demographics and location link (GeographyID).     |
-| `data/products.csv`        | Product details with price and category.                   |
-| `data/geography.csv`       | Country and city data per customer.                        |
-| `data/engagement_data.csv` | Marketing engagement metrics (likes, views, content type). |
-| `README.md`                | This documentation file.                                   |
-| `LICENSE` (optional)       | Project license (MIT recommended).                         |
+Identified top-performing regions and product categories.
 
+Analyzed customer sentiment trends over time.
 
-🛠 Tools & Technologies
+Improved campaign targeting based on customer behavior metrics.
 
-Power BI – Dashboarding and interactive visualization.
+Enabled executive-level decision-making through a clear and concise visual narrative.
 
-Python – Data preprocessing, merging, and feature engineering.
+📂 Project Files
 
-Pandas / NumPy – Data manipulation and cleaning.
+BI_Dashboard.pbix – Power BI project file
 
-Seaborn / Matplotlib – Exploratory and statistical plots.
+marketing_sentiment_analysis.py – Python script for sentiment analysis (optional if hosted)
 
-SQL (optional) – Advanced filtering and joins.
+README.md – Project documentation (this file)
 
-Jupyter Notebook – Interactive development and analysis.
-
-
-
-Regional Trends: Cities like Berlin and London show significant differences in preferred content types.
-
-Campaign Analysis: Certain campaigns (e.g., CampaignID 3) consistently outperform others across all channels.
