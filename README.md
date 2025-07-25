@@ -46,5 +46,7 @@ BI_Dashboard.pbix – Power BI project file
 
 marketing_sentiment_analysis.py – Python script for sentiment analysis (optional if hosted)
 
+MarketingAnalytics_Project.back (this is the database file that contain the data that is used in this project)
+
 README.md – Project documentation (this file)
 
